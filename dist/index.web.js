@@ -22433,27 +22433,11 @@ module.exports = {
 //
 //
 //
-//
-//
-//
-//
-//
 
-// import { WxcButton, WxcPopup } from 'weex-ui';
-// module.exports = {
-//   components: { WxcButton, WxcPopup },
-//   data: () => ({
-//     isShow: false
-//   }),
-//   methods: {
-//     buttonClicked () {
-//       this.isShow = true;
-//     },
-//     overlayClicked () {
-//       this.isShow = false;
-//     }
-//   }
-// };
+/**
+        当点击button按钮，执行buttonClicked()中的操作，即执行自定义组件glsurface的turn()方法。
+        教程：http://weex.apache.org/cn/guide/extend-android.html
+         */
 
 /***/ }),
 /* 17 */
